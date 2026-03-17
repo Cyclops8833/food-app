@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nourish</title>
+
+    <!-- PWA / iOS meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Nourish" />
+    <meta name="theme-color" content="#4ade80" />
+    <link rel="apple-touch-icon" href="/nourish/icon-192.png" />
+
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function(){
+        var p = window.location.search.slice(1).split('&')
+          .find(function(s){ return s.startsWith('p=') });
+        if (p) {
+          var path = decodeURIComponent(p.slice(2));
+          window.history.replaceState(null, null, '/' + path);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/nourish/assets/index-_busNwoi.js"></script>
+    <link rel="stylesheet" crossorigin href="/nourish/assets/index-CqaO8fzf.css">
+  <link rel="manifest" href="/nourish/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/nourish/registerSW.js"></script></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

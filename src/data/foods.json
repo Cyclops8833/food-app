@@ -1,0 +1,427 @@
+[
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "Fruit",
+    "image": "https://images.unsplash.com/photo-1669864573166-f99a20334f46?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Daniel Shapiro on Unsplash",
+    "servingSize": "one medium apple",
+    "nutrients": [
+      { "name": "Vitamin C", "strength": "excellent" },
+      { "name": "Fibre", "strength": "very good" },
+      { "name": "Potassium", "strength": "good" },
+      { "name": "Antioxidants", "strength": "good" }
+    ],
+    "benefits": "Apples give your immune system a boost with Vitamin C and keep your digestion happy thanks to their natural fibre. The antioxidants in the skin help protect your body's cells every day.",
+    "pairsWith": "Eat with peanut butter — the healthy fats help your body absorb more of the nutrients and keep you full for longer.",
+    "funFact": "An apple floats in water because 25% of its volume is actually air!"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "category": "Fruit",
+    "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Giorgio Trovato on Unsplash",
+    "servingSize": "one medium banana",
+    "nutrients": [
+      { "name": "Potassium", "strength": "excellent" },
+      { "name": "Vitamin B6", "strength": "very good" },
+      { "name": "Magnesium", "strength": "good" },
+      { "name": "Fibre", "strength": "good" }
+    ],
+    "benefits": "Bananas are brilliant for your muscles — the potassium helps them work properly and recover after exercise. Vitamin B6 supports your brain and helps your body make the chemicals that keep you feeling happy.",
+    "pairsWith": "Eat with yoghurt — the protein and probiotics pair perfectly with banana's natural sugars for a balanced snack.",
+    "funFact": "Bananas are technically berries, but strawberries are not — botany is wild!"
+  },
+  {
+    "id": "blueberry",
+    "name": "Blueberry",
+    "category": "Fruit",
+    "image": "https://images.unsplash.com/photo-1584879135892-53935a4b1408?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Sonya Eliseeva on Unsplash",
+    "servingSize": "a small handful (about 20 berries)",
+    "nutrients": [
+      { "name": "Antioxidants", "strength": "excellent" },
+      { "name": "Vitamin C", "strength": "very good" },
+      { "name": "Vitamin K", "strength": "very good" },
+      { "name": "Fibre", "strength": "good" }
+    ],
+    "benefits": "Blueberries are packed with powerful antioxidants that help protect your brain and keep your memory sharp. They also support your immune system and help your body fight off bugs.",
+    "pairsWith": "Eat with oats — the combination gives you slow-release energy and keeps you full all morning.",
+    "funFact": "Blueberries are one of the only naturally blue foods in the world — that blue colour comes from the antioxidants inside!"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "category": "Fruit",
+    "image": "https://images.unsplash.com/photo-1590284635836-dc0f237b74d9?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Angela Liu on Unsplash",
+    "servingSize": "one medium orange",
+    "nutrients": [
+      { "name": "Vitamin C", "strength": "excellent" },
+      { "name": "Folate", "strength": "very good" },
+      { "name": "Potassium", "strength": "good" },
+      { "name": "Fibre", "strength": "good" }
+    ],
+    "benefits": "One orange gives you more than a whole day's worth of Vitamin C, which helps your immune system fight off colds and keeps your skin healthy. The folate inside also helps your body build new cells.",
+    "pairsWith": "Eat with spinach — Vitamin C from the orange helps your body absorb the iron in the spinach much more effectively.",
+    "funFact": "Oranges don't always turn orange — in tropical countries they often stay green even when fully ripe!"
+  },
+  {
+    "id": "kiwi",
+    "name": "Kiwi",
+    "category": "Fruit",
+    "image": "https://images.unsplash.com/photo-1612267174385-23fbfe6fde59?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Jaroslaw Slodkiewicz on Unsplash",
+    "servingSize": "two kiwi fruits",
+    "nutrients": [
+      { "name": "Vitamin C", "strength": "excellent" },
+      { "name": "Vitamin K", "strength": "excellent" },
+      { "name": "Vitamin E", "strength": "very good" },
+      { "name": "Potassium", "strength": "good" }
+    ],
+    "benefits": "Kiwi fruits are tiny nutrition powerhouses — just two kiwis contain more Vitamin C than an orange! Vitamin K helps your blood clot properly so cuts heal fast, and Vitamin E keeps your skin and eyes healthy.",
+    "pairsWith": "Eat with strawberries — combining two Vitamin C-rich fruits gives your immune system an even bigger boost.",
+    "funFact": "Kiwi fruits are named after the kiwi bird from New Zealand — both are small, brown, and a bit fuzzy!"
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "category": "Vegetable",
+    "image": "https://images.unsplash.com/photo-1621387712024-b7098c86d8f5?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Fernanda Méndez on Unsplash",
+    "servingSize": "a large handful of leaves",
+    "nutrients": [
+      { "name": "Iron", "strength": "excellent" },
+      { "name": "Vitamin K", "strength": "excellent" },
+      { "name": "Folate", "strength": "very good" },
+      { "name": "Vitamin A", "strength": "very good" }
+    ],
+    "benefits": "Spinach is loaded with iron, which your blood needs to carry oxygen to every part of your body — this gives you energy and helps you concentrate at school. The Vitamin K also helps keep your bones strong as you grow.",
+    "pairsWith": "Eat with citrus fruits like orange or lemon — Vitamin C dramatically increases how much iron your body can absorb from the spinach.",
+    "funFact": "Popeye was onto something — spinach really does help build strong muscles, though the effect is more gradual than in the cartoons!"
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "category": "Vegetable",
+    "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Annie Spratt on Unsplash",
+    "servingSize": "a medium-sized floret (about 80g)",
+    "nutrients": [
+      { "name": "Vitamin C", "strength": "excellent" },
+      { "name": "Vitamin K", "strength": "excellent" },
+      { "name": "Fibre", "strength": "very good" },
+      { "name": "Folate", "strength": "good" }
+    ],
+    "benefits": "Broccoli is one of the most nutritious vegetables around — it has more Vitamin C than an orange and plenty of Vitamin K for healthy bones. The fibre feeds the good bacteria in your gut, which helps your whole body stay well.",
+    "pairsWith": "Eat with olive oil or cheese — healthy fats help your body absorb the fat-soluble vitamins in broccoli.",
+    "funFact": "Broccoli is actually a flower! If you leave it in the ground too long, those green florets open up into tiny yellow flowers."
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "category": "Vegetable",
+    "image": "https://images.unsplash.com/photo-1729292993549-a74a67e69c2a?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Christy Hinko on Unsplash",
+    "servingSize": "one medium carrot",
+    "nutrients": [
+      { "name": "Vitamin A", "strength": "excellent" },
+      { "name": "Beta-carotene", "strength": "excellent" },
+      { "name": "Fibre", "strength": "good" },
+      { "name": "Potassium", "strength": "good" }
+    ],
+    "benefits": "Carrots are famous for helping your eyesight — the beta-carotene converts into Vitamin A inside your body, which is essential for seeing in low light and keeping your eyes healthy. Carrots also support a strong immune system.",
+    "pairsWith": "Eat with hummus — the healthy fats in chickpeas help your body absorb the fat-soluble beta-carotene much more effectively.",
+    "funFact": "Carrots weren't always orange — they used to be purple, red, white, and yellow. Dutch farmers bred the orange ones in the 1600s!"
+  },
+  {
+    "id": "sweet-potato",
+    "name": "Sweet Potato",
+    "category": "Vegetable",
+    "image": "https://images.unsplash.com/photo-1617130094141-532436117aa1?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Muhammed Paqer on Unsplash",
+    "servingSize": "one medium sweet potato",
+    "nutrients": [
+      { "name": "Vitamin A", "strength": "excellent" },
+      { "name": "Potassium", "strength": "very good" },
+      { "name": "Fibre", "strength": "very good" },
+      { "name": "Vitamin C", "strength": "good" }
+    ],
+    "benefits": "Sweet potatoes are one of the most nutritious vegetables you can eat — just one contains more than a full day's worth of Vitamin A, which is vital for healthy eyes and a strong immune system. Their fibre also keeps your digestion running smoothly.",
+    "pairsWith": "Eat with black beans — together they make a complete protein and the Vitamin C in the potato helps you absorb the iron in the beans.",
+    "funFact": "Sweet potatoes are not actually related to regular potatoes — they belong to the morning glory flower family!"
+  },
+  {
+    "id": "capsicum",
+    "name": "Capsicum",
+    "category": "Vegetable",
+    "image": "https://images.unsplash.com/photo-1715554408507-0df6ad6d6b26?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "HisArt Photos on Unsplash",
+    "servingSize": "half a capsicum",
+    "nutrients": [
+      { "name": "Vitamin C", "strength": "excellent" },
+      { "name": "Vitamin A", "strength": "very good" },
+      { "name": "Vitamin B6", "strength": "good" },
+      { "name": "Antioxidants", "strength": "good" }
+    ],
+    "benefits": "Red capsicums have more Vitamin C than oranges, making them brilliant for your immune system and keeping your skin healthy. The mix of antioxidants also protects your cells and supports good eye health.",
+    "pairsWith": "Eat with eggs — the Vitamin C in capsicum helps your body use the iron from the eggs more efficiently.",
+    "funFact": "Green, yellow, orange, and red capsicums are all the same plant — the colour just changes as the fruit ripens, and so does the sweetness!"
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "category": "Meat & Fish",
+    "image": "https://images.unsplash.com/photo-1643886027883-1a23fe41ee2a?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Barun Ghosh on Unsplash",
+    "servingSize": "one palm-sized piece (about 100g)",
+    "nutrients": [
+      { "name": "Protein", "strength": "excellent" },
+      { "name": "Vitamin B3 (Niacin)", "strength": "excellent" },
+      { "name": "Phosphorus", "strength": "very good" },
+      { "name": "Selenium", "strength": "good" }
+    ],
+    "benefits": "Chicken is one of the best sources of lean protein, which your body uses to build and repair muscles as you grow. The B vitamins help convert the food you eat into energy, so you feel alert and ready to go.",
+    "pairsWith": "Eat with roasted vegetables — the healthy fats from a drizzle of olive oil help your body absorb the fat-soluble vitamins in the vegies.",
+    "funFact": "Chickens are the closest living relatives of the Tyrannosaurus rex — you're basically eating a tiny dinosaur!"
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "category": "Meat & Fish",
+    "image": "https://images.unsplash.com/photo-1739785938237-73b3654200d5?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Mitili Mitili on Unsplash",
+    "servingSize": "one fillet (about 150g)",
+    "nutrients": [
+      { "name": "Omega-3 fats", "strength": "excellent" },
+      { "name": "Protein", "strength": "excellent" },
+      { "name": "Vitamin D", "strength": "very good" },
+      { "name": "Vitamin B12", "strength": "excellent" }
+    ],
+    "benefits": "Salmon is one of the best foods for your brain — the omega-3 fatty acids help your brain cells communicate and support memory and focus. Vitamin D is hard to get from food alone, and salmon is one of the richest sources there is.",
+    "pairsWith": "Eat with leafy greens like spinach or broccoli — Vitamin D from the salmon helps your body absorb the calcium in the greens for strong bones.",
+    "funFact": "Salmon can leap up to three metres out of the water to swim upstream past waterfalls on their journey home to lay eggs!"
+  },
+  {
+    "id": "eggs",
+    "name": "Eggs",
+    "category": "Meat & Fish",
+    "image": "https://images.unsplash.com/photo-1760745271267-c8ec89f0b6d1?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Evvlus on Unsplash",
+    "servingSize": "two eggs",
+    "nutrients": [
+      { "name": "Protein", "strength": "excellent" },
+      { "name": "Vitamin B12", "strength": "very good" },
+      { "name": "Choline", "strength": "excellent" },
+      { "name": "Vitamin D", "strength": "good" }
+    ],
+    "benefits": "Eggs are one of nature's most complete foods — the protein inside contains all the building blocks your body needs to grow strong. Choline is a special nutrient found in the yolk that is essential for brain development and memory.",
+    "pairsWith": "Eat with wholegrain toast — the fibre in the bread slows down digestion and keeps you feeling full and focused all morning.",
+    "funFact": "The colour of an egg's shell is determined by the breed of chicken — it has nothing to do with the egg's nutritional value or flavour."
+  },
+  {
+    "id": "beef",
+    "name": "Beef",
+    "category": "Meat & Fish",
+    "image": "https://images.unsplash.com/photo-1665467710796-3a8bbb509e9f?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Andrew Relf on Unsplash",
+    "servingSize": "a palm-sized portion (about 100g)",
+    "nutrients": [
+      { "name": "Protein", "strength": "excellent" },
+      { "name": "Iron", "strength": "excellent" },
+      { "name": "Zinc", "strength": "very good" },
+      { "name": "Vitamin B12", "strength": "excellent" }
+    ],
+    "benefits": "Beef is one of the richest sources of haem iron — the type your body absorbs most easily — which helps your red blood cells carry oxygen and stops you feeling tired. Zinc supports your immune system and helps cuts and wounds heal.",
+    "pairsWith": "Eat with broccoli or capsicum — the Vitamin C in these vegies doubles the amount of iron your body can absorb from the beef.",
+    "funFact": "The iron in red meat is called haem iron, and your body can absorb up to three times more of it than the iron found in plants."
+  },
+  {
+    "id": "tuna",
+    "name": "Tuna",
+    "category": "Meat & Fish",
+    "image": "https://images.unsplash.com/photo-1626202372670-2102fab281db?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Farhad Ibrahimzade on Unsplash",
+    "servingSize": "half a tin (about 85g)",
+    "nutrients": [
+      { "name": "Protein", "strength": "excellent" },
+      { "name": "Omega-3 fats", "strength": "very good" },
+      { "name": "Selenium", "strength": "excellent" },
+      { "name": "Vitamin B3 (Niacin)", "strength": "very good" }
+    ],
+    "benefits": "Tuna is a lean, high-protein fish that helps build and repair your muscles after being active. Selenium is a powerful antioxidant that protects your cells, and the omega-3 fats support a healthy brain and heart.",
+    "pairsWith": "Eat with avocado on wholegrain bread — the healthy fats in avocado help your body absorb the fat-soluble nutrients in tuna.",
+    "funFact": "Bluefin tuna can swim at speeds of up to 70 km/h — they are among the fastest fish in the ocean!"
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "category": "Dairy",
+    "image": "https://images.unsplash.com/photo-1644902617099-1ee60442ff09?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Norbert Braun on Unsplash",
+    "servingSize": "one glass (250ml)",
+    "nutrients": [
+      { "name": "Calcium", "strength": "excellent" },
+      { "name": "Vitamin D", "strength": "very good" },
+      { "name": "Protein", "strength": "very good" },
+      { "name": "Vitamin B12", "strength": "good" }
+    ],
+    "benefits": "Milk is one of the best sources of calcium, which your bones and teeth need to grow strong — this is especially important while you're still growing. The Vitamin D in fortified milk works together with calcium to make sure your body actually uses it.",
+    "pairsWith": "Drink with oats — the combination of protein and slow-release carbohydrates makes for a perfectly balanced breakfast.",
+    "funFact": "It takes about 10 litres of milk to make just one kilogram of cheese — that's a lot of moo!"
+  },
+  {
+    "id": "yoghurt",
+    "name": "Yoghurt",
+    "category": "Dairy",
+    "image": "https://images.unsplash.com/photo-1763825613390-287a9db0803d?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Nikita Khowala on Unsplash",
+    "servingSize": "one small tub (150g)",
+    "nutrients": [
+      { "name": "Calcium", "strength": "excellent" },
+      { "name": "Probiotics", "strength": "excellent" },
+      { "name": "Protein", "strength": "very good" },
+      { "name": "Vitamin B12", "strength": "good" }
+    ],
+    "benefits": "Yoghurt contains billions of live probiotic bacteria that support a healthy gut, which scientists now know is connected to your immune system, mood, and overall health. The calcium also keeps your bones growing strong.",
+    "pairsWith": "Eat with blueberries and a drizzle of honey — the antioxidants in the berries work alongside the probiotics to support gut and immune health.",
+    "funFact": "Yoghurt has been eaten by humans for at least 8,000 years — it was probably discovered by accident when milk was stored in warm containers made from animal stomachs!"
+  },
+  {
+    "id": "cheese",
+    "name": "Cheese",
+    "category": "Dairy",
+    "image": "https://images.unsplash.com/photo-1635404617141-37e5688a3b45?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "愚木混株 Yumu on Unsplash",
+    "servingSize": "a matchbox-sized piece (about 40g)",
+    "nutrients": [
+      { "name": "Calcium", "strength": "excellent" },
+      { "name": "Protein", "strength": "very good" },
+      { "name": "Vitamin B12", "strength": "very good" },
+      { "name": "Phosphorus", "strength": "good" }
+    ],
+    "benefits": "Cheese is a concentrated source of calcium and protein — a small piece gives your bones a real boost and helps your muscles stay strong. Vitamin B12 supports a healthy nervous system and keeps your brain working at its best.",
+    "pairsWith": "Eat with wholegrain crackers and apple slices — the fibre balances the fat in the cheese and makes for a much more satisfying snack.",
+    "funFact": "There are over 1,800 different varieties of cheese in the world — from squeaky halloumi to runny brie, they all start from the same ingredient: milk."
+  },
+  {
+    "id": "oats",
+    "name": "Oats",
+    "category": "Grains & Legumes",
+    "image": "https://images.unsplash.com/photo-1573500020648-b3ec03fc6e42?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Tati Visual on Unsplash",
+    "servingSize": "half a cup of dry oats",
+    "nutrients": [
+      { "name": "Beta-glucan fibre", "strength": "excellent" },
+      { "name": "Manganese", "strength": "excellent" },
+      { "name": "Iron", "strength": "very good" },
+      { "name": "Magnesium", "strength": "good" }
+    ],
+    "benefits": "Oats are famous for giving you long-lasting energy because they release their natural sugars slowly, which means no sugar crash after breakfast. The special beta-glucan fibre also feeds the good bacteria in your gut and helps keep your heart healthy.",
+    "pairsWith": "Eat with milk and banana — the protein and calcium from milk, plus the potassium from banana, makes porridge a complete and powerful breakfast.",
+    "funFact": "Oats are one of the few grains that naturally contain a type of fibre called beta-glucan, which is so good for your heart that it has its own health claim approved by scientists!"
+  },
+  {
+    "id": "brown-rice",
+    "name": "Brown Rice",
+    "category": "Grains & Legumes",
+    "image": "https://images.unsplash.com/photo-1694953593181-6ce423500712?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Markus Winkler on Unsplash",
+    "servingSize": "half a cup cooked",
+    "nutrients": [
+      { "name": "Fibre", "strength": "very good" },
+      { "name": "Magnesium", "strength": "very good" },
+      { "name": "Manganese", "strength": "excellent" },
+      { "name": "B Vitamins", "strength": "good" }
+    ],
+    "benefits": "Unlike white rice, brown rice still has its outer bran layer, which is where most of the fibre and nutrients live. This fibre helps keep your digestion healthy and means the energy from the rice is released slowly, keeping you full and focused.",
+    "pairsWith": "Eat with lentils — together they form a complete protein with all the amino acids your body needs to grow, which is great for vegetarians.",
+    "funFact": "White rice is actually just brown rice with the bran and germ removed — they start as exactly the same grain!"
+  },
+  {
+    "id": "lentils",
+    "name": "Lentils",
+    "category": "Grains & Legumes",
+    "image": "https://images.unsplash.com/photo-1763368392508-3d4bddfdd20a?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Zoshua Colah on Unsplash",
+    "servingSize": "half a cup cooked",
+    "nutrients": [
+      { "name": "Protein", "strength": "very good" },
+      { "name": "Iron", "strength": "very good" },
+      { "name": "Fibre", "strength": "excellent" },
+      { "name": "Folate", "strength": "excellent" }
+    ],
+    "benefits": "Lentils are a brilliant plant-based source of protein and iron — perfect for energy and muscle growth. Their high fibre content feeds the good bacteria in your gut and helps keep your blood sugar steady throughout the day.",
+    "pairsWith": "Eat with tomatoes or capsicum — the Vitamin C helps your body absorb the plant-based iron in lentils much more effectively.",
+    "funFact": "Lentils are one of the oldest cultivated foods on Earth — humans have been eating them for more than 13,000 years!"
+  },
+  {
+    "id": "chickpeas",
+    "name": "Chickpeas",
+    "category": "Grains & Legumes",
+    "image": "https://images.unsplash.com/photo-1724418020207-144b3ba54d2d?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Chirag Pithadiya on Unsplash",
+    "servingSize": "half a cup cooked",
+    "nutrients": [
+      { "name": "Protein", "strength": "very good" },
+      { "name": "Fibre", "strength": "excellent" },
+      { "name": "Iron", "strength": "good" },
+      { "name": "Folate", "strength": "very good" }
+    ],
+    "benefits": "Chickpeas are the base of hummus and a fantastic plant-based protein source that helps your muscles grow and repair. Their impressive fibre content keeps your gut healthy and helps you feel satisfied for hours after eating.",
+    "pairsWith": "Eat with carrots — dipping carrots in hummus (made from chickpeas) pairs beta-carotene with healthy fats for maximum absorption.",
+    "funFact": "Chickpeas are also called garbanzo beans — the liquid in a tin of chickpeas, called aquafaba, can be whipped up just like egg white to make meringues!"
+  },
+  {
+    "id": "quinoa",
+    "name": "Quinoa",
+    "category": "Grains & Legumes",
+    "image": "https://images.unsplash.com/photo-1622542086073-dcdc3350cc2b?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Abhishek Hajare on Unsplash",
+    "servingSize": "half a cup cooked",
+    "nutrients": [
+      { "name": "Complete Protein", "strength": "excellent" },
+      { "name": "Magnesium", "strength": "very good" },
+      { "name": "Iron", "strength": "very good" },
+      { "name": "Fibre", "strength": "good" }
+    ],
+    "benefits": "Quinoa is one of the only plant foods that contains all nine essential amino acids, making it a complete protein — something most grains can't claim. This makes it especially great for vegetarians who need to get all their protein from plants.",
+    "pairsWith": "Eat with roasted vegetables and a squeeze of lemon — the Vitamin C in the lemon helps your body absorb the iron in the quinoa.",
+    "funFact": "Quinoa (say it 'keen-wah') was considered sacred by the Inca people of South America, who called it 'the mother of all grains' and used it in religious ceremonies."
+  },
+  {
+    "id": "almonds",
+    "name": "Almonds",
+    "category": "Other",
+    "image": "https://images.unsplash.com/photo-1617175093868-ae0d5004881d?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Hayley Maxwell on Unsplash",
+    "servingSize": "a small handful (about 20 almonds)",
+    "nutrients": [
+      { "name": "Vitamin E", "strength": "excellent" },
+      { "name": "Magnesium", "strength": "very good" },
+      { "name": "Healthy fats", "strength": "excellent" },
+      { "name": "Fibre", "strength": "good" }
+    ],
+    "benefits": "Almonds are one of the best snacks for your brain and skin — Vitamin E is a powerful antioxidant that protects your cells, and the magnesium supports hundreds of chemical reactions in your body including muscle function. The healthy fats keep you feeling full.",
+    "pairsWith": "Eat with an apple — the fibre in the apple and the protein and fat in the almonds create a perfectly balanced snack that keeps energy levels steady.",
+    "funFact": "Almonds aren't actually nuts — they're the seeds of a fruit related to peaches and cherries. The almond you eat is the seed inside the fruit's stone!"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "category": "Other",
+    "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=800&q=80&fit=crop&crop=entropy&auto=format",
+    "imageCredit": "Thought Catalog on Unsplash",
+    "servingSize": "half an avocado",
+    "nutrients": [
+      { "name": "Healthy fats", "strength": "excellent" },
+      { "name": "Potassium", "strength": "excellent" },
+      { "name": "Folate", "strength": "very good" },
+      { "name": "Vitamin K", "strength": "very good" }
+    ],
+    "benefits": "Avocados are full of heart-healthy monounsaturated fats — the same kind found in olive oil — which help your brain function and keep you feeling full. They also have more potassium than a banana, which is great for your muscles and heart.",
+    "pairsWith": "Eat with tomatoes on wholegrain toast — the healthy fats in avocado dramatically increase how many antioxidants your body absorbs from the tomato.",
+    "funFact": "Avocados are one of the few fruits that don't ripen on the tree — they only start to ripen after they've been picked!"
+  }
+]
