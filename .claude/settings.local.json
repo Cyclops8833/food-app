@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(\"s:/Claude/nourish/public/404.html\":*)"
-    ]
-  }
-}
